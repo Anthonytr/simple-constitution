@@ -7,7 +7,7 @@ module.exports = {
   devtool: 'source-map',
   matchers: ({css: '**/*.pcss'}),
   ignore: [
-    '**/articles/', 
+    '**/articles/*', 
     '**/_layout.html', 
     '**/_*', 
     '**/.*', 
