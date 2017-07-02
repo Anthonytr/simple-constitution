@@ -8,7 +8,7 @@ module.exports = {
   matchers: ({css: '**/*.pcss'}),
   ignore: [
     '**/articles/', 
-    '**/layout.html', 
+    '**/_layout.html', 
     '**/_*', 
     '**/.*', 
     'readme.md', 
