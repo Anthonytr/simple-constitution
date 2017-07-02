@@ -5,7 +5,15 @@ const env = process.env.NODE_ENV
 
 module.exports = {
   devtool: 'source-map',
-  ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
+  matchers: ({css: '**/*.pcss'}),
+  ignore: [
+    '**/articles/', 
+    '**/layout.html', 
+    '**/_*', 
+    '**/.*', 
+    'readme.md', 
+    'yarn.lock'
+  ],
   reshape: htmlStandards({
     parser: false,
     locals: { foo: 'bar' },
