@@ -1,0 +1,26 @@
+{
+  "name": "simple-constitution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/js/app.js",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.11.2",
+    "postcss": "^6.0.6",
+    "postcss-cssnext": "^3.0.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "global": "^4.3.1",
+    "npm": "^4.2.0",
+    "webpack": "^2.2.1"
+  }
+}

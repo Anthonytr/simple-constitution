@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900');
+
+/* shared/colors.css */
+:root {
+  --color-grey-lighter:     #ECEDED;
+  --color-grey-light:       #8F9496;
+  --color-grey:             #454C50;
+  --color-grey-dark:        #212629;
+  --color-grey-darker:      #131617;
+  --color-link:             #1089B2;
+
+  --logo-color: var(--color-grey-dark);
+}
+
+/* shared/typography.css */
+:root {
+  --font-open-sans:           "Open Sans", sans-serif;
+  --font-rubik:               "Rubik", sans-serif;
+}
+
+
+/* Helper Classes */
+.v-hide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.text-bold { font-weight: 500; }
+
+
+
+/* Mobile Breakpoints */
+@custom-media --mobile-tiny (max-width: 767px);
+@custom-media --mobile (min-width: 768px);
+@custom-media --tablet (min-width: 992px);
+@custom-media --desktop (min-width: 1200px);
+@custom-media --desktop-large (min-width: 1440px);
