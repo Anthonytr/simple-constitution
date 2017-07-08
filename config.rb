@@ -32,12 +32,6 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
-
 
 # External Asset Pipeline
 activate :external_pipeline,

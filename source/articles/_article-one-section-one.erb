@@ -1,6 +1,13 @@
+---
+article: 1
+section: 1
+---
+
 <section class="const-article">
     <p class="const-article__subheader">
-        <span class="const-article__article">Article 1</span> / <span class="const-article__section">Section 1</span>
+        <span class="const-article__article">
+            <% "current_page.data.article" %>
+        </span> / <span class="const-article__section"><% "current_page.data.section" %></span>
     </p>
 
     <p class="const-article__title">Legislative Branch</p>
