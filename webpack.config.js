@@ -20,6 +20,13 @@ module.exports = {
             'postcss-loader'
           ]
         })
+      },
+      {
+          test: /\.js$/,
+          loader: 'babel-loader',
+          query: {
+              presets: ["babel-preset-es2015", "babel-preset-es2016", "babel-preset-es2017"].map(require.resolve)
+          }
       }
     ]
   },
@@ -27,6 +34,10 @@ module.exports = {
     path: __dirname + '/.tmp/dist',
     filename: 'assets/js/[name].js'
   },
+  stats: {
+         colors: true
+     },
+  devtool: 'source-map',
   plugins: [
     new ExtractTextPlugin('assets/css/[name].css')
   ]
