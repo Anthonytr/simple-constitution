@@ -1,8 +1,24 @@
----
-title: 
----
+<%= data.test.name %>
 
-<%= partial "articles/article-one-section-one" %>
+<% data.articles.each of |f| %>
+<section class="const-article">
+    <p class="const-article__subheader">
+        <span class="const-article__article"><%= f[:article] %></span> / <span class="const-article__section"></span>
+    </p>
+
+    <p class="const-article__title"></p>
+
+    <div class="const-article__text">
+        <p class="const-article__original-text"></p>
+
+        <div class="const-article__simple-text">
+            <p></p>
+        </div>
+    </div>
+
+</section>
+<% end %>
+
 
 <%= link_to(
   "Read Documentation",
