@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Basic HTML stuff -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Use the title from a page's frontmatter if it has one, otherwise output the string "Eiffel" -->
+    <title><%= "Caitlin Gibson #53" %></title>
+
+    <!-- Standard basic meta-tag info -->
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Caitlin Gibson, Soccer Player">
+    <meta property="og:title" content="Caitlin Gibson, Forward for union Sacramento">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2b2b2b">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Import CSS from assets/css/app.css (written in PostCSS) -->
+    <%= stylesheet_link_tag "app" %>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Where the content is outputted -->
+      <%= yield %>
+  </div>
+
+  <!-- Import Google Analytics code > go to config.rb to add your UA ID -->
+  <%= google_analytics_tag %>
+
+  <!-- Import JS from assets/css/app.css (written in PostCSS) -->
+  <%= javascript_include_tag "app" %>
+    
+  </body>
+</html>
