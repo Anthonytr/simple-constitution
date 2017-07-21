@@ -2,8 +2,8 @@ backend:
   name: github
   repo: /Anthonytr/simple-constitution # Path to your Github repository
   branch: master # Branch to update
-  #publish_mode: editorial_workflow
-  media_folder: "images/uploads"
+  # publish_mode: editorial_workflow
+  # media_folder: "images/uploads"
 
   collections:
   - name: "home" # Used in routes, e.g. /admin/collections/blog
