@@ -1,20 +1,18 @@
 backend:
   name: github
   repo: /Anthonytr/simple-constitution # Path to your Github repository
-  branch: master # Branch to update
-  # publish_mode: editorial_workflow
-  media_folder: "source/images"
-
-  collections:
-  - name: "home" # Used in routes, e.g. /admin/collections/blog
-    label: "Main Content" # Used in the UI
-    files:
-      - file: "data/home.yml"
-        label: "Articles"
-        name: "articles"
-        fields: # The fields for each document, usually in front matter
-        - {label: "Article", name: "article", widget: "number"}
-        - {label: "Section", name: "section", widget: "number"}
-        - {label: "Section Title", name: "title", widget: "string"}
-        - {label: "Original Text", name: "original", widget: "string"}
-        - {label: "Simple Text", name: "simple", widget: "string"}
+  branch: master 
+media_folder: "images"
+collections:
+- name: "home" # Used in routes, e.g. /admin/collections/blog
+  label: "Main Content" # Used in the UI
+  files:
+    - file: "data/home.yml"
+      label: "Articles"
+      name: "articles"
+      fields: # The fields for each document, usually in front matter
+      - {label: "Article", name: "article", widget: "number"}
+      - {label: "Section", name: "section", widget: "number"}
+      - {label: "Section Title", name: "title", widget: "string"}
+      - {label: "Original Text", name: "original", widget: "string"}
+      - {label: "Simple Text", name: "simple", widget: "string"}
