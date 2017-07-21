@@ -1,7 +1,7 @@
 {
   "name": "simple-constitution",
-  "description": "The greatest living document in the world, translated for the modern age",
   "version": "0.0.1",
+  "description": "The greatest living document in the world, translated for the modern age",
   "main": "/js/app.js",
   "scripts": {
     "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
