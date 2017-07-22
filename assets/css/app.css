@@ -1,27 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 @import '_variables.css';
 
 body {
   background-color: #fbc547;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  text-align: left;
+  font-family: var(--font-bree);
+  padding: 15px;
+
+  @media (--tablet) {
+    padding: 55px;
+  }
 }
 
 
 body,
 .container {
-  margin: 0 40px;
   position: relative;
 
 }
 
-.const-article {
-  margin-top: 55px;
+p {
+  margin: 0;
+}
 
-  & :first-child {
+.const-article {
+  margin-top: 155px;
+
+  &:first-child {
     margin-top: 0;
+  }
+
+  & .const-article__title {
+    font-size: 58px;
+    margin: 0 0 15px 0;
+  }
+}
+
+.const-article__text {
+  font-size: 18px;
+
+  @media (--tablet) {
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    & .const-article__original-text {
+      margin-right: 30px;
+    }
+  }
+}
+
+.const-article__original-text {
+  font-size: 80%;
+  opacity: .8;
+}
+
+.const-article__simple-text {
+  font-size: 120%;
+}
+
+.const-article__subheader {
+  font-family: var(--font-open-sans);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+
+  & .const-article__article {
+    &:before {
+      content: 'Article';
+    }
+  }
+  
+  & .const-article__section {
+    &:before {
+      content: 'Section';
+    }
   }
 }

@@ -15,8 +15,10 @@
 
 /* shared/typography.css */
 :root {
-  --font-open-sans:           "Open Sans", sans-serif;
-  --font-rubik:               "Rubik", sans-serif;
+  --font-open-sans:           'Open Sans', sans-serif;
+  --font-rubik:               'Rubik', sans-serif;
+  --font-bree:                'Bree Serif', serif;
+  --font-merriweather:        'Merriweather', serif;
 }
 
 
