@@ -14,5 +14,5 @@ collections:
     - {label: "Simple Title", name: "title", widget: "string"}
     - {label: "Article Number", name: "article", widget: "number"}
     - {label: "Section Number", name: "section", widget: "number"}
-    - {label: "Original Text", name: "original", widget: "string"}
-    - {label: "Simple Text", name: "simple", widget: "string"}
+    - {label: "Original Text", name: "original", widget: "text"}
+    - {label: "Simple Text", name: "simple", widget: "text"}
