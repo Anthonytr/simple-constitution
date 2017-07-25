@@ -1,16 +1,20 @@
-<% data.home.articles.each do |article| %>
+<% 
+project_folder = current_page.metadata[:articles]
+article_resources = sitemap.resources.select{ |r| r.path[/#{project_folder}\/([^\/]*).yml/] }
+article_resources.each_with_index do |articles, i|
+%>
 <section class="const-article">
     <p class="const-article__subheader">
-        <span class="const-article__article"><%= article.article %></span>  /  <span class="const-article__section"><%= article.section %></span>
+        <span class="const-article__article"><%= articles.article %></span>  /  <span class="const-article__section"><%= articles.section %></span>
     </p>
 
-    <p class="const-article__title"><%= article.title %></p>
+    <p class="const-article__title"><%= articles.title %></p>
 
     <div class="const-article__text">
-        <p class="const-article__original-text"><%= article.original %></p>
+        <p class="const-article__original-text"><%= articles.original %></p>
 
         <div class="const-article__simple-text">
-            <p><%= article.simple %></p>
+            <p><%= articles.simple %></p>
         </div>
     </div>
 
