@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Anthonytr/simple-constitution
-  branch: master
+  branch: blog
 media_folder: "images"
 collections:
 - name: "articles" # Used in routes, e.g. /admin/collections/blog
