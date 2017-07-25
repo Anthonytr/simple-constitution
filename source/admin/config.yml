@@ -11,7 +11,7 @@ collections:
   slug: "article{{article_num}}-section{{section_num}}.html" # Filename template i.e. YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
     - {label: "Simple Title", name: "title", widget: "string"}
-    - {label: "Date, name: "date", widget: "datetime"}
+    - {label: "Date", name: "date", widget: "datetime"}
     - {label: "Article Number", name: "article_num", widget: "number"}
     - {label: "Section Number", name: "section_num", widget: "number"}
     - {label: "Original Text", name: "original_text", widget: "text"}
