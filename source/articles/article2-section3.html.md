@@ -1,5 +1,5 @@
 ---
-date: 2012-01-01T00:00:00.000Z
+date: 2012-01-04
 tags: example
 title: Example Article 2
 article_num: 2
