@@ -1,6 +1,6 @@
 ---
 title: Legislative Schedule
-date: 07/05/2017 9:32 PM
+date: '07/05/2017 9:32 PM'
 article_num: '1'
 section_num: '4'
 original_text: >-
@@ -14,8 +14,9 @@ original_text: >-
   shall be on the first Monday in December, unless they shall by Law appoint a
   different Day.
 ---
-Rules for electing Senators and Representatives shall be created by the respective State. Congress may make laws creating or changing regulations for these elections, but may not make any law about polling locations.
+Rules for electing Senators and Representatives shall be created by the respective body. Congress may make laws creating or changing regulations for these elections, but may not make any law about polling locations.
 
 Congress must meet at least once every year. This meeting will be on the first Monday in December, unless changed by law.
+
 
 
