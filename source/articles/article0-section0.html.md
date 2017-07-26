@@ -16,7 +16,8 @@ The Preamble gives the reasons for writing the Constitution, listing 6 goals for
 - Insure Domestic Tranquility
 - Provide for the Common Defence
 - Promote the General Welfare
-- Secure the Blessings of Liberty to ourselves and our Posterity
+- Secure the Blessings of Liberty for ourselves and future generations
+
 
 
 
