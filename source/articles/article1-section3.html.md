@@ -1,6 +1,6 @@
 ---
 title: Senate
-date: 2017-07-26T04:31:24.977Z
+date: 06/03/2017 9:31 PM
 article_num: '1'
 section_num: '3'
 original_text: >-
@@ -59,3 +59,4 @@ The Vice President of the United States serves as the President of the Senate, a
 Only members of the Senate may elect or impeach their President pro tempore and other officers. The President pro tempore shall serve as President of the Senate in the absence of the Vice President of the United States of America, or when the Vice President is absent.
 
 Only the Senate my try impeachments. A 2/3rds majority is required for impeaching the President of the United States of America. Only the Senate has the power to impeach and disqualify officials in public office, they have no autority to prosucute public officials for anything else (i.e criminally).
+
