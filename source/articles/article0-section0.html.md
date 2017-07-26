@@ -19,3 +19,4 @@ The Preamble gives the reasons for writing the Constitution, listing 6 goals for
 - Secure the Blessings of Liberty to ourselves and our Posterity
 
 
+
