@@ -1,6 +1,6 @@
 ---
 title: Legislative Rules
-date: 2017-07-26T04:33:55.246Z
+date: 06/05/2017 9:33 PM
 article_num: '1'
 section_num: '5'
 original_text: >-
@@ -32,4 +32,5 @@ Each Legislative house makes and enforces the rules for conducting business such
 Each House must keep a record of its proceedings. They must also publish this publically unless they determine the records must be kept secret.
 
 If one House wants to adjourn for more than three days during the session of congress, they must gain consent from the other house.
+
 
