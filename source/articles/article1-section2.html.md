@@ -1,6 +1,6 @@
 ---
 title: House of Representatives
-date: 2012-01-01T00:00:00.000Z
+date: 07/03/2017 9:36 PM
 article_num: '1'
 section_num: 2
 original_text: >-

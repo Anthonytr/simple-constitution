@@ -1,5 +1,5 @@
 ---
-date: 2012-01-04T00:00:00.000Z
+date: 07/02/2017 9:36 PM
 tags: example
 title: Legislative Branch
 article_num: '1'

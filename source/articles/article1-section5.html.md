@@ -1,6 +1,6 @@
 ---
 title: Legislative Rules
-date: 06/05/2017 9:33 PM
+date: 07/06/2017 9:33 PM
 article_num: '1'
 section_num: '5'
 original_text: >-

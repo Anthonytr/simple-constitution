@@ -1,6 +1,6 @@
 ---
 title: Senate
-date: 06/03/2017 9:31 PM
+date: 07/04/2017 9:36 PM
 article_num: '1'
 section_num: '3'
 original_text: >-

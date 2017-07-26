@@ -1,4 +1,4 @@
-<% page_articles.each_with_index do |article, i| %>
+<% page_articles.reverse.each_with_index do |article, i| %>
 <section class="const-article">
     <p class="const-article__subheader">
         <span class="const-article__article"><%= article.data.article_num %></span> / <span class="const-article__section"><%= article.data.section_num %></span>

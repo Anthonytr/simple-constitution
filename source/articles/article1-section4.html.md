@@ -1,6 +1,6 @@
 ---
 title: Legislative Schedule
-date: 06/04/2017 9:32 PM
+date: 07/05/2017 9:32 PM
 article_num: '1'
 section_num: '4'
 original_text: >-
