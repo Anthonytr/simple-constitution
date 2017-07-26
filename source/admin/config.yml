@@ -1,18 +1,18 @@
 backend:
   name: github
   repo: Anthonytr/simple-constitution
-  branch: master
+  branch: blog
 media_folder: "images"
 collections:
 - name: "articles" # Used in routes, e.g. /admin/collections/blog
   label: "Articles" # Used in the UI
-  folder: "data/articles" # The path to the folder where the documents are stored
+  folder: "source/articles" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
-  extension: "yml"
-  slug: "article{{article}}-section{{section}}" # Filename template i.e. YYYY-MM-DD-title.md
+  slug: "article{{article_num}}-section{{section_num}}.html" # Filename template i.e. YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
     - {label: "Simple Title", name: "title", widget: "string"}
-    - {label: "Article Number", name: "article", widget: "number"}
-    - {label: "Section Number", name: "section", widget: "number"}
-    - {label: "Original Text", name: "original", widget: "text"}
-    - {label: "Simple Text", name: "simple", widget: "markdown"}
+    - {label: "Date", name: "date", widget: "datetime"}
+    - {label: "Article Number", name: "article_num", widget: "number"}
+    - {label: "Section Number", name: "section_num", widget: "number"}
+    - {label: "Original Text", name: "original_text", widget: "text"}
+    - {label: "Simple Text", name: "body", widget: "markdown"}

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Norican|Romanesco');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,700,900,900i|Open+Sans:400,700');
 
 /* shared/colors.css */
 :root {
+  --color-white:            #FFF;
   --color-grey-lighter:     #ECEDED;
   --color-grey-light:       #BBC2C5;
   --color-grey:             #454C50;
@@ -9,8 +12,9 @@
   --color-grey-darker:      #131617;
   --color-link:             #1089B2;
 
+  --color-primary:          #fbc547;
   --logo-color:               var(--color-grey);
-  --color-bg:                 #fff;
+  --color-bg:                 var(--color-primary);
 }
 
 /* shared/typography.css */
@@ -19,6 +23,9 @@
   --font-rubik:               'Rubik', sans-serif;
   --font-bree:                'Bree Serif', serif;
   --font-merriweather:        'Merriweather', serif;
+  --font-norican:             'Norican', serif;
+  --font-great-vibes:         'Great Vibes', serif;
+  --font-romanesco:           'Romanesco', serif;
 }
 
 

@@ -1,19 +1,18 @@
-<% data.home.articles.each do |article| %>
+<% page_articles.each_with_index do |article, i| %>
 <section class="const-article">
     <p class="const-article__subheader">
-        <span class="const-article__article"><%= article.article %></span>  /  <span class="const-article__section"><%= article.section %></span>
+        <span class="const-article__article"><%= article.data.article_num %></span> / <span class="const-article__section"><%= article.data.section_num %></span>
     </p>
 
     <p class="const-article__title"><%= article.title %></p>
 
     <div class="const-article__text">
-        <p class="const-article__original-text"><%= article.original %></p>
+        <p class="const-article__original-text"><%= article.data.original_text %></p>
 
         <div class="const-article__simple-text">
-            <p><%= article.simple %></p>
+            <p><%= article.body %></p>
         </div>
     </div>
 
 </section>
-
 <% end %>
