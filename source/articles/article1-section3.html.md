@@ -1,6 +1,6 @@
 ---
 title: Senate
-date: 07/04/2017 9:36 PM
+date: '07/04/2017 9:36 PM'
 article_num: '1'
 section_num: '3'
 original_text: >-
@@ -46,7 +46,7 @@ original_text: >-
   liable and subject to Indictment, Trial, Judgment and Punishment, according to
   Law.
 ---
-Members of the Senate are elected every 6 years by their respective State's legislature, although after the 17th amendment Senators are elected by the people of their respective state. There are 2 Senaters for every state, regardless of the state's population.
+Members of the Senate are elected every 6 years by their respective State's legislature, although after the 17th amendment Senators are elected by the people of their respective state. There are 2 Senators for every state, regardless of the state's population.
 
 You must meet the following requirements to be elected to the Senate:
 
@@ -58,5 +58,6 @@ The Vice President of the United States serves as the President of the Senate, a
 
 Only members of the Senate may elect or impeach their President pro tempore and other officers. The President pro tempore shall serve as President of the Senate in the absence of the Vice President of the United States of America, or when the Vice President is absent.
 
-Only the Senate my try impeachments. A 2/3rds majority is required for impeaching the President of the United States of America. Only the Senate has the power to impeach and disqualify officials in public office, they have no autority to prosucute public officials for anything else (i.e criminally).
+Only the Senate may try impeachments. A 2/3rds majority is required for impeaching the President of the United States of America. Only the Senate has the power to impeach and disqualify officials in public office, they have no authority to prosecute public officials for anything else (i.e criminally).
+
 
