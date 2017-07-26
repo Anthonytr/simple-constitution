@@ -1,6 +1,6 @@
 ---
 title: We The People
-date: 2017-07-25T20:29:48.994Z
+date: 07/25/2017 9:36 PM
 article_num: '0'
 section_num: '0'
 original_text: >-
@@ -17,3 +17,4 @@ The Preamble gives the reasons for writing the Constitution, listing 6 goals for
 - Provide for the Common Defence
 - Promote the General Welfare
 - Secure the Blessings of Liberty to ourselves and our Posterity
+
