@@ -1,15 +1,12 @@
 ---
-date: 2012-01-04
+date: 2012-01-04T00:00:00.000Z
 tags: example
-title: Example Article 2
-article_num: 2
-section_num: 3
-original_text: Blah Blah
+title: Legislative Branch
+article_num: '1'
+section_num: '1'
+original_text: >-
+  All legislative Powers herein granted shall be vested in a Congress of the
+  United States, which shall consist of a Senate and House of Representatives.
 ---
-This is an example Two!. You probably want to delete it and write your own articles!
-
-So if I write a list per say.. it should work:
-
-- List one
-- List two
+This establishes the first branch of the government, the legislative branch, commonly referred to as Congress. Only Congress, made up of a Senate and House of Representatives, may create and amend the National laws of the United States of America.
 
