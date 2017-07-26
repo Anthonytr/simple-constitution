@@ -24,6 +24,10 @@ p {
   margin: 0;
 }
 
+.readmore {
+  overflow: hidden;
+}
+
 .const-article {
   margin-top: 55px;
   border-radius: 18px;

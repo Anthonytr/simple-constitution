@@ -22,11 +22,12 @@ module.exports = {
         })
       },
       {
-          test: /\.js$/,
-          loader: 'babel-loader',
-          query: {
-              presets: ["babel-preset-es2015", "babel-preset-es2016", "babel-preset-es2017"].map(require.resolve)
-          }
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        query: {
+            presets: ["babel-preset-es2015", "babel-preset-es2016", "babel-preset-es2017"].map(require.resolve)
+        }
       }
     ]
   },
