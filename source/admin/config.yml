@@ -14,5 +14,5 @@ collections:
     - {label: "Date", name: "date", widget: "datetime"}
     - {label: "Article Number", name: "article_num", widget: "number"}
     - {label: "Section Number", name: "section_num", widget: "number"}
-    - {label: "Original Text", name: "original_text", widget: "text"}
+    - {label: "Original Text", name: "original_text", widget: "markdown"}
     - {label: "Simple Text", name: "body", widget: "markdown"}
