@@ -8,7 +8,7 @@ module.exports = {
     app: './assets/app.js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.pcss$/,
         use: ExtractTextPlugin.extract({
@@ -23,11 +23,14 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-            presets: ["babel-preset-es2015", "babel-preset-es2016", "babel-preset-es2017"].map(require.resolve)
-        }
+        use: [
+          {
+            loader: 'babel-loader',
+            query: {
+                presets: ['es2015']
+            }
+          }
+        ]
       }
     ]
   },
