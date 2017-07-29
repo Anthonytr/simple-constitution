@@ -39,10 +39,15 @@ module.exports = {
     filename: 'assets/js/[name].js'
   },
   stats: {
-         colors: true
-     },
+    colors: true
+  },
   devtool: 'source-map',
   plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      readmore: 'readme-js'
+    }),
     new ExtractTextPlugin('assets/css/[name].css')
   ]
 };
