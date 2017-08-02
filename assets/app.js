@@ -1,6 +1,5 @@
-// This is where it all goes :)
-import 'jquery';
-import 'readmore-js';
+require('jquery');
+require('readmore-js');
 
 var styles = require('./css/app.pcss');
 
