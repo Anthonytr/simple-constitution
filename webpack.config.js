@@ -46,7 +46,6 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
-      readmore: 'readme-js'
     }),
     new ExtractTextPlugin('assets/css/[name].css')
   ]
