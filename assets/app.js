@@ -1,4 +1,5 @@
-// This is where it all goes :)
+require('readmore-js');
+
 var styles = require('./css/app.pcss');
 
 $('.readmore').readmore();
